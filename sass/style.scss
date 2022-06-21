@@ -4,8 +4,27 @@
     box-sizing: border-box;
 }
 body{
+    background-color: #eee;
+    display: grid;
+    place-items: center;
+   
     .container{
+        margin-top: 8rem;
         display: grid;
-        width: 100%;
+        // 
+        grid-template-columns: repeat(8, 1fr);
+        color: white;
+       
+        div{
+            width: 100%;
+            padding: 1.7rem 2rem;
+        }
+     .item1{
+            background-color: black;
+        }
+        .even{
+            background-color: #fff;
+        }
+        
     }
 }

@@ -5,9 +5,32 @@
           box-sizing: border-box;
 }
 
-body .container {
+body {
+  background-color: #eee;
   display: -ms-grid;
   display: grid;
+  place-items: center;
+}
+
+body .container {
+  margin-top: 8rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[8];
+      grid-template-columns: repeat(8, 1fr);
+  color: white;
+}
+
+body .container div {
   width: 100%;
+  padding: 1.7rem 2rem;
+}
+
+body .container .item1 {
+  background-color: black;
+}
+
+body .container .even {
+  background-color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
