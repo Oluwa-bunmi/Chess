@@ -6,31 +6,31 @@
 }
 
 body {
-  background-color: #eee;
+  background-color: brown;
   display: -ms-grid;
   display: grid;
   place-items: center;
 }
 
 body .container {
-  margin-top: 8rem;
+  margin-top: 5rem;
   display: -ms-grid;
   display: grid;
+  border: 14px solid red;
   -ms-grid-columns: (1fr)[8];
       grid-template-columns: repeat(8, 1fr);
-  color: white;
 }
 
 body .container div {
   width: 100%;
-  padding: 3rem;
+  padding: 30px;
 }
 
-body .container .item1 {
-  background-color: black;
+body .container .odd {
+  background-color: #fff;
 }
 
 body .container .even {
-  background-color: #fff;
+  background-color: #000;
 }
 /*# sourceMappingURL=style.css.map */
